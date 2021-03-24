@@ -1,7 +1,20 @@
-function Account(){
-    this.id;
-    this.name;
-    this.document;
-    this.email;
-    this.password
+// function Account(name, document) {
+//     this.id;
+//     this.name = name;
+//     this.document = document;
+//     this.email;
+//     this.password;
+
+// }
+
+// Nuevo metodo
+
+class Account{
+    constructor(name, document){
+        this.id;
+        this.name = name;
+        this.document = document;
+        this.email;
+        this.password;
+    }
 }
